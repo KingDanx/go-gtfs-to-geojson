@@ -4,15 +4,32 @@ import (
 	"bufio"
 	"encoding/json"
 	"errors"
+	"flag"
 	"fmt"
 	"log"
 	"os"
 	"reflect"
 	"strconv"
 	"strings"
+	"sync"
 )
 
 var stops, stopTimes, routes, trips, shapes GTFSTable
+
+var route_types map[int]string = map[int]string{
+	0:  "Tram, Streetcar, Light rail. Any light rail or street level system within a metropolitan area.",
+	1:  "Subway, Metro. Any underground rail system within a metropolitan area.",
+	2:  "Rail. Used for intercity or long-distance travel.",
+	3:  "Bus. Used for short- and long-distance bus routes.",
+	4:  "Ferry. Used for short- and long-distance boat service.",
+	5:  "Cable tram. Used for street-level rail cars where the cable runs beneath the vehicle (e.g., cable car in San Francisco).",
+	6:  "Aerial lift, suspended cable car (e.g., gondola lift, aerial tramway). Cable transport where cabins, cars, gondolas or open chairs are suspended by means of one or more cables.",
+	7:  "Funicular. Any rail system designed for steep inclines.",
+	11: "Trolleybus. Electric buses that draw power from overhead wires using poles.",
+	12: "Monorail. Railway in which the track consists of a single rail or a beam.",
+}
+
+var routeTypes []string = []string{}
 
 type GTFSTable struct {
 	header map[string]int
@@ -54,21 +71,44 @@ type GeoJSONCollection struct {
 }
 
 func main() {
+	routeTypesCSV := flag.String("route_types", "", "Comma-separated list of route types")
+
+	// Parse the command-line flags
+	flag.Parse()
+
+	// Split the CSV string into a slice of strings
+	routeTypes = strings.Split(*routeTypesCSV, ",")
+
+	var wg sync.WaitGroup
+
+	// Add two to the wait group counter
+	wg.Add(2)
+
 	err := populateGTFS()
 	if err != nil {
 		fmt.Println(err)
 	}
 
-	stopsErr := generateStopGeoJSON()
-	if stopsErr != nil {
-		fmt.Println(err)
-	}
+	go func() {
+		defer wg.Done()
+		stopsErr := generateStopGeoJSON()
+		if stopsErr != nil {
+			fmt.Println(err)
+		}
 
-	routesErr := generateRoutesGeoJSON()
-	if routesErr != nil {
-		fmt.Println(routesErr)
-	}
+	}()
 
+	go func() {
+		defer wg.Done()
+		routesErr := generateRoutesGeoJSON()
+		if routesErr != nil {
+			fmt.Println(routesErr)
+		}
+	}()
+
+	wg.Wait()
+
+	fmt.Println("Both GeoJSON generation tasks are complete.")
 }
 
 func getTextFileLines(path string) ([]string, error) {
@@ -186,36 +226,39 @@ func generateRoutesGeoJSON() error {
 	tTripShapeIdIndex := trips.header["shape_id"]
 	tRouteIdIndex := trips.header["route_id"]
 
+	shShapeIdIndex := shapes.header["shape_id"]
 	shLatIndex := shapes.header["shape_pt_lat"]
 	shLonIndex := shapes.header["shape_pt_lon"]
 
 	features := []GeoJSONFeature{}
 
-	for _, rValues := range routes.values {
+	for i, rValues := range routes.values {
 		routeId := rValues[rRouteIdIndex]
 		for _, tValues := range trips.values {
 			if routeId == tValues[tRouteIdIndex] {
 				shapeId := tValues[tTripShapeIdIndex]
 				tripCoordinates := [][]float64{}
 				for _, shValues := range shapes.values {
-					shapeLat, ok := shValues[shLatIndex]
-					if !ok {
-						shapeLat = "0.0"
+					if shapeId == shValues[shShapeIdIndex] {
+						shapeLat, ok := shValues[shLatIndex]
+						if !ok {
+							shapeLat = "0.0"
+						}
+						shapeLatF, err := strconv.ParseFloat(shapeLat, 64)
+						if err != nil {
+							shapeLatF = 0.0
+						}
+						shapeLon, ok := shValues[shLonIndex]
+						if !ok {
+							shapeLon = "0.0"
+						}
+						shapeLonF, err := strconv.ParseFloat(shapeLon, 64)
+						if err != nil {
+							shapeLonF = 0.0
+						}
+						shapeCoordinates := []float64{shapeLatF, shapeLonF}
+						tripCoordinates = append(tripCoordinates, shapeCoordinates)
 					}
-					shapeLatF, err := strconv.ParseFloat(shapeLat, 64)
-					if err != nil {
-						shapeLatF = 0.0
-					}
-					shapeLon, ok := shValues[shLonIndex]
-					if !ok {
-						shapeLon = "0.0"
-					}
-					shapeLonF, err := strconv.ParseFloat(shapeLon, 64)
-					if err != nil {
-						shapeLonF = 0.0
-					}
-					shapeCoordinates := []float64{shapeLatF, shapeLonF}
-					tripCoordinates = append(tripCoordinates, shapeCoordinates)
 				}
 				feature := GeoJSONFeature{
 					Type: "Feature",
@@ -237,6 +280,8 @@ func generateRoutesGeoJSON() error {
 				features = append(features, feature)
 			}
 		}
+		percentComplete := int(float32(i) / float32(len(routes.values)) * 100)
+		fmt.Println(i, rValues[rRouteNameIndex], "complete ->", percentComplete, "percent complete")
 	}
 
 	routesCollection := GeoJSONCollection{
@@ -275,10 +320,12 @@ func generateStopGeoJSON() error {
 	rRouteIdIndex := routes.header["route_id"]
 	rRouteNameIndex := routes.header["route_long_name"]
 	rRouteColorIndex := routes.header["route_color"]
+	rRouteTypeIndex := routes.header["route_type"]
 
 	features := []GeoJSONFeature{}
 
-	for _, sValue := range stops.values {
+stopLoop:
+	for i, sValue := range stops.values {
 		for _, stValue := range stopTimes.values {
 			if sValue[sStopIdIndex] == stValue[stStopIdIndex] {
 				trip, err := trips.find(tTripIdIndex, stValue[stTripIdIndex])
@@ -288,6 +335,9 @@ func generateStopGeoJSON() error {
 				route, err := routes.find(rTripIdIndex, trip[tRouteIdIndex])
 				if err != nil {
 					continue
+				}
+				if len(routeTypes) > 0 && !includes(routeTypes, route[rRouteTypeIndex]) {
+					continue stopLoop
 				}
 				stopLat, ok := sValue[sStopLatIndex]
 				if !ok {
@@ -325,6 +375,8 @@ func generateStopGeoJSON() error {
 				features = append(features, feature)
 			}
 		}
+		percentComplete := int(float32(i) / float32(len(stops.values)) * 100)
+		fmt.Println(i, sValue[sStopNameIndex], "complete ->", percentComplete, "percent complete")
 	}
 
 	stopCollection := GeoJSONCollection{
@@ -370,4 +422,13 @@ func writeJSON(json string, path string) error {
 	}
 
 	return nil
+}
+
+func includes[T comparable](slice []T, item T) bool {
+	for _, v := range slice {
+		if v == item {
+			return true
+		}
+	}
+	return false
 }

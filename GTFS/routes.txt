@@ -1,2 +1,6 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
-so_shore,NICTD,SSL,South Shore Line,,2,E10000,FFFFFF
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+25809,DART,BLUE,DART LIGHT RAIL - BLUE LINE,,0,https://www.dart.org/guide/transit-and-use/rail/rail-line-details/blue,198BC3,FFFFFF
+25810,DART,GREEN,DART LIGHT RAIL - GREEN LINE,,0,https://www.dart.org/guide/transit-and-use/rail/rail-line-details/green,006F38,FFFFFF
+25811,DART,ORANGE,DART LIGHT RAIL - ORANGE LINE,,0,https://www.dart.org/guide/transit-and-use/rail/rail-line-details/orange,F68B1F,FFFFFF
+25812,DART,RED,DART LIGHT RAIL - RED LINE,,0,https://www.dart.org/guide/transit-and-use/rail/rail-line-details/red,FD3E3E,FFFFFF
+25814,DART,TRE,TRINITY RAILWAY,,2,https://trinityrailwayexpress.org,112458,FFFFFF
