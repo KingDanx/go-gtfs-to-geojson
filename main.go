@@ -64,6 +64,11 @@ func main() {
 		fmt.Println(err)
 	}
 
+	routesErr := generateRoutesGeoJSON()
+	if routesErr != nil {
+		fmt.Println(routesErr)
+	}
+
 }
 
 func getTextFileLines(path string) ([]string, error) {
@@ -173,6 +178,87 @@ func populateGTFS() error {
 	return nil
 }
 
+func generateRoutesGeoJSON() error {
+	rRouteIdIndex := routes.header["route_id"]
+	rRouteNameIndex := routes.header["route_long_name"]
+	rRouteColorIndex := routes.header["route_color"]
+
+	tTripShapeIdIndex := trips.header["shape_id"]
+	tRouteIdIndex := trips.header["route_id"]
+
+	shLatIndex := shapes.header["shape_pt_lat"]
+	shLonIndex := shapes.header["shape_pt_lon"]
+
+	features := []GeoJSONFeature{}
+
+	for _, rValues := range routes.values {
+		routeId := rValues[rRouteIdIndex]
+		for _, tValues := range trips.values {
+			if routeId == tValues[tRouteIdIndex] {
+				shapeId := tValues[tTripShapeIdIndex]
+				tripCoordinates := [][]float64{}
+				for _, shValues := range shapes.values {
+					shapeLat, ok := shValues[shLatIndex]
+					if !ok {
+						shapeLat = "0.0"
+					}
+					shapeLatF, err := strconv.ParseFloat(shapeLat, 64)
+					if err != nil {
+						shapeLatF = 0.0
+					}
+					shapeLon, ok := shValues[shLonIndex]
+					if !ok {
+						shapeLon = "0.0"
+					}
+					shapeLonF, err := strconv.ParseFloat(shapeLon, 64)
+					if err != nil {
+						shapeLonF = 0.0
+					}
+					shapeCoordinates := []float64{shapeLatF, shapeLonF}
+					tripCoordinates = append(tripCoordinates, shapeCoordinates)
+				}
+				feature := GeoJSONFeature{
+					Type: "Feature",
+					Geometry: GeoJSONGeometry{
+						Type:        "MultiLineString",
+						Coordinates: tripCoordinates,
+					},
+					Properties: map[string]interface{}{
+						"shape_id":        shapeId,
+						"route_color":     rValues[rRouteColorIndex],
+						"route_long_name": rValues[rRouteNameIndex],
+						"route_id":        routeId,
+					},
+				}
+
+				if isMapInSlice(feature, features) {
+					continue
+				}
+				features = append(features, feature)
+			}
+		}
+	}
+
+	routesCollection := GeoJSONCollection{
+		Type:     "FeatureCollection",
+		Features: features,
+	}
+
+	jsonData, err := json.Marshal(routesCollection)
+	if err != nil {
+		fmt.Println("Error converting to JSON:", err)
+	}
+
+	jsonErr := writeJSON(string(jsonData), "output/map-routes-data.geojson")
+	if err != nil {
+		return jsonErr
+	}
+
+	fmt.Println("Created output/map-routes-data.geojson")
+
+	return nil
+}
+
 func generateStopGeoJSON() error {
 	sStopIdIndex := stops.header["stop_id"]
 	sStopNameIndex := stops.header["stop_name"]
@@ -219,7 +305,7 @@ func generateStopGeoJSON() error {
 				if err != nil {
 					stopLonF = 0.0
 				}
-				result := GeoJSONFeature{
+				feature := GeoJSONFeature{
 					Type: "Feature",
 					Geometry: GeoJSONGeometry{
 						Type:        "Point",
@@ -233,10 +319,10 @@ func generateStopGeoJSON() error {
 						"route_color":     route[rRouteColorIndex],
 					},
 				}
-				if isMapInSlice(result, features) {
+				if isMapInSlice(feature, features) {
 					continue
 				}
-				features = append(features, result)
+				features = append(features, feature)
 			}
 		}
 	}
@@ -251,11 +337,12 @@ func generateStopGeoJSON() error {
 		fmt.Println("Error converting to JSON:", err)
 	}
 
-	jsonErr := writeJSON(string(jsonData), "output/map-stops.data.geojson")
+	jsonErr := writeJSON(string(jsonData), "output/map-stops-data.geojson")
 	if err != nil {
 		return jsonErr
 	}
 
+	fmt.Println("Created output/map-stops-data.geojson")
 	return nil
 }
 
