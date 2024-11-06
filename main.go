@@ -16,6 +16,7 @@ import (
 
 var stops, stopTimes, routes, trips, shapes GTFSTable
 
+// ? https://gtfs.org/documentation/schedule/reference/#routestxt
 var route_types map[int]string = map[int]string{
 	0:  "Tram, Streetcar, Light rail. Any light rail or street level system within a metropolitan area.",
 	1:  "Subway, Metro. Any underground rail system within a metropolitan area.",
@@ -267,10 +268,10 @@ func generateRoutesGeoJSON() error {
 						Coordinates: tripCoordinates,
 					},
 					Properties: map[string]interface{}{
-						"shape_id":        shapeId,
-						"route_color":     rValues[rRouteColorIndex],
-						"route_long_name": rValues[rRouteNameIndex],
-						"route_id":        routeId,
+						"shape_id":    shapeId,
+						"route_color": rValues[rRouteColorIndex],
+						"route_name":  rValues[rRouteNameIndex],
+						"route_id":    routeId,
 					},
 				}
 
@@ -362,11 +363,11 @@ stopLoop:
 						Coordinates: []float64{stopLatF, stopLonF},
 					},
 					Properties: map[string]interface{}{
-						"stop_name":       sValue[sStopNameIndex],
-						"stop_id":         sValue[sStopIdIndex],
-						"route_long_name": route[rRouteNameIndex],
-						"route_id":        route[rRouteIdIndex],
-						"route_color":     route[rRouteColorIndex],
+						"stop_name":   sValue[sStopNameIndex],
+						"stop_id":     sValue[sStopIdIndex],
+						"route_name":  route[rRouteNameIndex],
+						"route_id":    route[rRouteIdIndex],
+						"route_color": route[rRouteColorIndex],
 					},
 				}
 				if isMapInSlice(feature, features) {

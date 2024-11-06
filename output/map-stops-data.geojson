@@ -13,7 +13,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "13659",
                 "stop_name": "ZOO STATION"
             }
@@ -30,7 +30,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "15262",
                 "stop_name": "8TH \u0026 CORINTH STATION"
             }
@@ -47,7 +47,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "15262",
                 "stop_name": "8TH \u0026 CORINTH STATION"
             }
@@ -64,7 +64,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "15913",
                 "stop_name": "WESTMORELAND STATION"
             }
@@ -81,7 +81,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "16083",
                 "stop_name": "MORRELL STATION"
             }
@@ -98,7 +98,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "21030",
                 "stop_name": "ILLINOIS TC/STATION"
             }
@@ -115,7 +115,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "21210",
                 "stop_name": "HAMPTON STATION"
             }
@@ -132,7 +132,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22729",
                 "stop_name": "CEDARS STATION"
             }
@@ -149,7 +149,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "22729",
                 "stop_name": "CEDARS STATION"
             }
@@ -166,7 +166,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22730",
                 "stop_name": "TYLER VERNON STATION"
             }
@@ -183,7 +183,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22747",
                 "stop_name": "CONVENTION CENTER STATION"
             }
@@ -200,7 +200,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "22747",
                 "stop_name": "CONVENTION CENTER STATION"
             }
@@ -217,7 +217,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22748",
                 "stop_name": "EBJ UNION STATION"
             }
@@ -234,7 +234,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "22748",
                 "stop_name": "EBJ UNION STATION"
             }
@@ -251,7 +251,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "22748",
                 "stop_name": "EBJ UNION STATION"
             }
@@ -268,7 +268,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22749",
                 "stop_name": "WEST END STATION"
             }
@@ -285,7 +285,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "22749",
                 "stop_name": "WEST END STATION"
             }
@@ -302,7 +302,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "22749",
                 "stop_name": "WEST END STATION"
             }
@@ -319,7 +319,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "22749",
                 "stop_name": "WEST END STATION"
             }
@@ -336,7 +336,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22750",
                 "stop_name": "AKARD STATION"
             }
@@ -353,7 +353,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "22750",
                 "stop_name": "AKARD STATION"
             }
@@ -370,7 +370,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "22750",
                 "stop_name": "AKARD STATION"
             }
@@ -387,7 +387,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "22750",
                 "stop_name": "AKARD STATION"
             }
@@ -404,7 +404,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22751",
                 "stop_name": "ST PAUL STATION"
             }
@@ -421,7 +421,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "22751",
                 "stop_name": "ST PAUL STATION"
             }
@@ -438,7 +438,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "22751",
                 "stop_name": "ST PAUL STATION"
             }
@@ -455,7 +455,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "22751",
                 "stop_name": "ST PAUL STATION"
             }
@@ -472,7 +472,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22752",
                 "stop_name": "PEARL/ARTS DISTRICT STATION"
             }
@@ -489,7 +489,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "22752",
                 "stop_name": "PEARL/ARTS DISTRICT STATION"
             }
@@ -506,7 +506,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "22752",
                 "stop_name": "PEARL/ARTS DISTRICT STATION"
             }
@@ -523,7 +523,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "22752",
                 "stop_name": "PEARL/ARTS DISTRICT STATION"
             }
@@ -540,7 +540,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22938",
                 "stop_name": "SMU/MOCKINGBIRD STATION"
             }
@@ -557,7 +557,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "22938",
                 "stop_name": "SMU/MOCKINGBIRD STATION"
             }
@@ -574,7 +574,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "22938",
                 "stop_name": "SMU/MOCKINGBIRD STATION"
             }
@@ -591,7 +591,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "22984",
                 "stop_name": "LOVERS LANE STATION"
             }
@@ -608,7 +608,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "22984",
                 "stop_name": "LOVERS LANE STATION"
             }
@@ -625,7 +625,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "23320",
                 "stop_name": "LEDBETTER STATION"
             }
@@ -642,7 +642,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "23390",
                 "stop_name": "KIEST STATION"
             }
@@ -659,7 +659,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "23391",
                 "stop_name": "VA MEDICAL CENTER STATION"
             }
@@ -676,7 +676,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26420",
                 "stop_name": "CITYPLACE/UPTOWN STATION"
             }
@@ -693,7 +693,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26420",
                 "stop_name": "CITYPLACE/UPTOWN STATION"
             }
@@ -710,7 +710,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "26420",
                 "stop_name": "CITYPLACE/UPTOWN STATION"
             }
@@ -727,7 +727,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "26652",
                 "stop_name": "WHITE ROCK STATION"
             }
@@ -744,7 +744,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "26668",
                 "stop_name": "LBJ / SKILLMAN STATION"
             }
@@ -761,7 +761,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26669",
                 "stop_name": "WALNUT HILL STATION"
             }
@@ -778,7 +778,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26669",
                 "stop_name": "WALNUT HILL STATION"
             }
@@ -795,7 +795,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26670",
                 "stop_name": "LBJ / CENTRAL STATION"
             }
@@ -812,7 +812,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26670",
                 "stop_name": "LBJ / CENTRAL STATION"
             }
@@ -829,7 +829,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26671",
                 "stop_name": "FOREST LN STATION"
             }
@@ -846,7 +846,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26671",
                 "stop_name": "FOREST LN STATION"
             }
@@ -863,7 +863,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26672",
                 "stop_name": "SPRING VALLEY STATION"
             }
@@ -880,7 +880,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26672",
                 "stop_name": "SPRING VALLEY STATION"
             }
@@ -897,7 +897,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26673",
                 "stop_name": "ARAPAHO CENTER STATION"
             }
@@ -914,7 +914,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26673",
                 "stop_name": "ARAPAHO CENTER STATION"
             }
@@ -931,7 +931,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26674",
                 "stop_name": "GALATYN PARK STATION"
             }
@@ -948,7 +948,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26674",
                 "stop_name": "GALATYN PARK STATION"
             }
@@ -965,7 +965,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "26690",
                 "stop_name": "FOREST / JUPITER STATION"
             }
@@ -982,7 +982,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "26691",
                 "stop_name": "DOWNTOWN GARLAND STATION"
             }
@@ -999,7 +999,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26895",
                 "stop_name": "CITYLINE/BUSH STATION"
             }
@@ -1016,7 +1016,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26895",
                 "stop_name": "CITYLINE/BUSH STATION"
             }
@@ -1033,7 +1033,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26896",
                 "stop_name": "DOWNTOWN PLANO STATION"
             }
@@ -1050,7 +1050,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26896",
                 "stop_name": "DOWNTOWN PLANO STATION"
             }
@@ -1067,7 +1067,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "26897",
                 "stop_name": "PARKER ROAD STATION"
             }
@@ -1084,7 +1084,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "26897",
                 "stop_name": "PARKER ROAD STATION"
             }
@@ -1101,7 +1101,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "28172",
                 "stop_name": "MEDICAL/MARKET CTR STATION"
             }
@@ -1118,7 +1118,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "28174",
                 "stop_name": "DOWNTOWN IRVING/HERITAGE CROSSING STATION"
             }
@@ -1135,7 +1135,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "28176",
                 "stop_name": "WEST IRVING STATION"
             }
@@ -1152,7 +1152,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "28178",
                 "stop_name": "CENTREPORT STATION"
             }
@@ -1169,7 +1169,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "28180",
                 "stop_name": "BELL STATION"
             }
@@ -1186,7 +1186,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "28251",
                 "stop_name": "FORT WORTH INTERMODAL TRANSIT CENTER"
             }
@@ -1203,7 +1203,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "28252",
                 "stop_name": "T\u0026P STATION"
             }
@@ -1220,7 +1220,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "28264",
                 "stop_name": "VICTORY STATION"
             }
@@ -1237,7 +1237,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "28264",
                 "stop_name": "VICTORY STATION"
             }
@@ -1254,7 +1254,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "28264",
                 "stop_name": "VICTORY STATION"
             }
@@ -1271,7 +1271,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "28755",
                 "stop_name": "PARK LANE STATION"
             }
@@ -1288,7 +1288,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "28755",
                 "stop_name": "PARK LANE STATION"
             }
@@ -1305,7 +1305,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29815",
                 "stop_name": "NORTH CARROLLTON/FRANKFORD STATION"
             }
@@ -1322,7 +1322,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29816",
                 "stop_name": "TRINITY MILLS RAIL STATION"
             }
@@ -1339,7 +1339,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29817",
                 "stop_name": "DOWNTOWN CARROLLTON STATION"
             }
@@ -1356,7 +1356,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29818",
                 "stop_name": "FARMERS BRANCH STATION"
             }
@@ -1373,7 +1373,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29819",
                 "stop_name": "ROYAL LANE STATION"
             }
@@ -1390,7 +1390,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29820",
                 "stop_name": "WALNUT HILL/DENTON STATION"
             }
@@ -1407,7 +1407,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "29821",
                 "stop_name": "BACHMAN STATION"
             }
@@ -1424,7 +1424,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29821",
                 "stop_name": "BACHMAN STATION"
             }
@@ -1441,7 +1441,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "29822",
                 "stop_name": "BURBANK STATION"
             }
@@ -1458,7 +1458,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29822",
                 "stop_name": "BURBANK STATION"
             }
@@ -1475,7 +1475,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "29824",
                 "stop_name": "INWOOD/LOVE FIELD STATION"
             }
@@ -1492,7 +1492,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29824",
                 "stop_name": "INWOOD/LOVE FIELD STATION"
             }
@@ -1509,7 +1509,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "29825",
                 "stop_name": "MARKET CENTER STATION"
             }
@@ -1526,7 +1526,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29825",
                 "stop_name": "MARKET CENTER STATION"
             }
@@ -1543,7 +1543,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "29826",
                 "stop_name": "SOUTHWEST MEDICAL DISTRICT/PARKLAND"
             }
@@ -1560,7 +1560,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29826",
                 "stop_name": "SOUTHWEST MEDICAL DISTRICT/PARKLAND"
             }
@@ -1577,7 +1577,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29831",
                 "stop_name": "HATCHER STATION"
             }
@@ -1594,7 +1594,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29832",
                 "stop_name": "LAWNVIEW STATION"
             }
@@ -1611,7 +1611,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29833",
                 "stop_name": "LAKE JUNE STATION"
             }
@@ -1628,7 +1628,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "29834",
                 "stop_name": "BUCKNER STATION"
             }
@@ -1645,7 +1645,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "31084",
                 "stop_name": "UNIVERSITY OF DALLAS STATION"
             }
@@ -1662,7 +1662,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "31088",
                 "stop_name": "DALLAS COLLEGE NORTHLAKE CAMPUS STATION"
             }
@@ -1679,7 +1679,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "31089",
                 "stop_name": "BELT LINE STATION"
             }
@@ -1696,7 +1696,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "32040",
                 "stop_name": "MLK STATION"
             }
@@ -1713,7 +1713,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "32041",
                 "stop_name": "FAIR PARK STATION"
             }
@@ -1730,7 +1730,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "32041",
                 "stop_name": "FAIR PARK STATION"
             }
@@ -1747,7 +1747,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "32041",
                 "stop_name": "FAIR PARK STATION"
             }
@@ -1764,7 +1764,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "32041",
                 "stop_name": "FAIR PARK STATION"
             }
@@ -1781,7 +1781,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "32042",
                 "stop_name": "BAYLOR STATION"
             }
@@ -1798,7 +1798,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "32042",
                 "stop_name": "BAYLOR STATION"
             }
@@ -1815,7 +1815,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "32042",
                 "stop_name": "BAYLOR STATION"
             }
@@ -1832,7 +1832,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "32042",
                 "stop_name": "BAYLOR STATION"
             }
@@ -1849,7 +1849,7 @@
             "properties": {
                 "route_color": "FD3E3E",
                 "route_id": "25812",
-                "route_long_name": "DART LIGHT RAIL - RED LINE",
+                "route_name": "DART LIGHT RAIL - RED LINE",
                 "stop_id": "32043",
                 "stop_name": "DEEP ELLUM STATION"
             }
@@ -1866,7 +1866,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "32043",
                 "stop_name": "DEEP ELLUM STATION"
             }
@@ -1883,7 +1883,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "32043",
                 "stop_name": "DEEP ELLUM STATION"
             }
@@ -1900,7 +1900,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "32043",
                 "stop_name": "DEEP ELLUM STATION"
             }
@@ -1917,7 +1917,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "32049",
                 "stop_name": "LAKE HIGHLANDS STATION"
             }
@@ -1934,7 +1934,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "32337",
                 "stop_name": "LAS COLINAS URBAN CENTER STATION"
             }
@@ -1951,7 +1951,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "32338",
                 "stop_name": "IRVING CONVENTION CENTER STATION"
             }
@@ -1968,7 +1968,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "32553",
                 "stop_name": "DFW AIRPORT STATION"
             }
@@ -1985,7 +1985,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "32562",
                 "stop_name": "DOWNTOWN ROWLETT STATION"
             }
@@ -2002,7 +2002,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "32834",
                 "stop_name": "EAST TEX YARD LIMIT"
             }
@@ -2019,7 +2019,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "32835",
                 "stop_name": "WEST TEX YARD LIMIT"
             }
@@ -2036,7 +2036,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "32891",
                 "stop_name": "TP ARENA POCKET"
             }
@@ -2053,7 +2053,7 @@
             "properties": {
                 "route_color": "006F38",
                 "route_id": "25810",
-                "route_long_name": "DART LIGHT RAIL - GREEN LINE",
+                "route_name": "DART LIGHT RAIL - GREEN LINE",
                 "stop_id": "32892",
                 "stop_name": "TP SCYENE POCKET"
             }
@@ -2070,7 +2070,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "33086",
                 "stop_name": "CAMP WISDOM STATION"
             }
@@ -2087,7 +2087,7 @@
             "properties": {
                 "route_color": "198BC3",
                 "route_id": "25809",
-                "route_long_name": "DART LIGHT RAIL - BLUE LINE",
+                "route_name": "DART LIGHT RAIL - BLUE LINE",
                 "stop_id": "33087",
                 "stop_name": "UNT DALLAS STATION"
             }
@@ -2104,7 +2104,7 @@
             "properties": {
                 "route_color": "F68B1F",
                 "route_id": "25811",
-                "route_long_name": "DART LIGHT RAIL - ORANGE LINE",
+                "route_name": "DART LIGHT RAIL - ORANGE LINE",
                 "stop_id": "33566",
                 "stop_name": "HIDDEN RIDGE STATION"
             }
@@ -2121,7 +2121,7 @@
             "properties": {
                 "route_color": "112458",
                 "route_id": "25814",
-                "route_long_name": "TRINITY RAILWAY",
+                "route_name": "TRINITY RAILWAY",
                 "stop_id": "34126",
                 "stop_name": "TRINITY LAKES STATION"
             }
