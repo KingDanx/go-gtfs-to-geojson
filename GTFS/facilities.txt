@@ -1,4 +1,4 @@
-stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,stop_type,stop_url
+facility_id,facility_code,facility_name,facility_desc,facility_lat,facility_lon,facility_type,facility_url
 22729,22729,CEDARS STATION,,32.768574,-96.793253,1,
 25435,25435,CBD WEST TC,,32.781606,-96.804081,1,
 29270,29270,BUSH TURNPIKE STATION,,33.003313,-96.702518,1,

@@ -1,13 +1,13 @@
-GTFS Version: V564-193-194-20241005
-Data Range: 20241005 - 20241020
-URL: https://www.dart.org/transitdata/archive/V564-193-194-20241005.ZIP
+GTFS Version: V578-193-195-20241216
+Data Range: 20241216 - 20250119
+URL: https://www.dart.org/transitdata/archive/V578-193-195-20241216.ZIP
 
-Event: Republish due to route 883 exceptions
+Event: New Years Eve (special event for Train service) and Jan 4 (modified Green line)
 
 BUS Signup: 193 - SEP2024_BUS
-RAIL Signup: 194 - SEP2024_RAIL
+RAIL Signup: 195 - OCT2024_RAIL
 
-Info file created: 2024-10-12T20:01:07
+Info file created: 2024-12-20T16:58:56
 
 
 New versions are published for upcoming special and weather events.

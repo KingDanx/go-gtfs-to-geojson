@@ -279,6 +279,7 @@ func generateRoutesGeoJSON() error {
 					continue
 				}
 				features = append(features, feature)
+
 			}
 		}
 		percentComplete := int(float32(i) / float32(len(routes.values)) * 100)
@@ -307,6 +308,7 @@ func generateRoutesGeoJSON() error {
 
 func generateStopGeoJSON() error {
 	sStopIdIndex := stops.header["stop_id"]
+	//sStopCodeIndex := stops.header["stop_code"]
 	sStopNameIndex := stops.header["stop_name"]
 	sStopLatIndex := stops.header["stop_lat"]
 	sStopLonIndex := stops.header["stop_lon"]
@@ -324,6 +326,7 @@ func generateStopGeoJSON() error {
 	rRouteTypeIndex := routes.header["route_type"]
 
 	features := []GeoJSONFeature{}
+	csv := []string{"stop_id,stop_name,route_id,route_long_name"}
 
 stopLoop:
 	for i, sValue := range stops.values {
@@ -374,6 +377,19 @@ stopLoop:
 					continue
 				}
 				features = append(features, feature)
+
+				csvStop := fmt.Sprintf("%s,%s,%s,%s", sValue[sStopIdIndex], sValue[sStopNameIndex], route[rRouteIdIndex], route[rRouteNameIndex])
+
+				for _, v := range csv {
+					if v == csvStop {
+						fmt.Println("skipping")
+						continue stopLoop
+					}
+				}
+
+				fmt.Println(csvStop)
+
+				csv = append(csv, csvStop)
 			}
 		}
 		percentComplete := int(float32(i) / float32(len(stops.values)) * 100)
@@ -393,6 +409,12 @@ stopLoop:
 	jsonErr := writeJSON(string(jsonData), "output/map-stops-data.geojson")
 	if err != nil {
 		return jsonErr
+	}
+
+	csvErr := writeJSON(strings.Join(csv, "\r\n"), "output/stops-data.csv")
+	if csvErr != nil {
+		fmt.Println(csvErr)
+		return csvErr
 	}
 
 	fmt.Println("Created output/map-stops-data.geojson")

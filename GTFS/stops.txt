@@ -42,8 +42,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 13003,13003,COLONIAL @ COOPER - N - NS,COLONIAL @ COOPER -Northbound -Near Side (before the intersection),32.75748,-96.77166,,,0
 13005,13005,COOPER @ HARWOOD - N - NS,COOPER @ HARWOOD -Northbound -Near Side (before the intersection),32.75896,-96.770119,,,0
 13006,13006,HARWOOD @ WARREN - N - NS,HARWOOD @ WARREN -Northbound -Near Side (before the intersection),32.760625,-96.771759,,,0
-13008,13008,COLONIAL @ PENNSYLVANIA - N - FS,COLONIAL @ PENNSYLVANIA -Northbound -Far Side (after the intersection),32.760609,-96.775023,,,1
-13009,13009,COLONIAL @ MLK - N - NS,COLONIAL @ MLK -Northbound -Near Side (before the intersection),32.761795,-96.776425,,,1
 13010,13010,ERVAY @ SOUTH - N - NS,ERVAY @ SOUTH -Northbound -Near Side (before the intersection),32.762334,-96.777547,,,0
 13011,13011,ERVAY @ AL LIPSCOMB WAY - N - NS,ERVAY @ AL LIPSCOMB WAY -Northbound -Near Side (before the intersection),32.764202,-96.780159,,,1
 13012,13012,ERVAY @ SANGER - N - FS,ERVAY @ SANGER -Northbound -Far Side (after the intersection),32.765266,-96.781243,,,1
@@ -590,7 +588,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 14423,14423,MAPLE @ KNIGHT - S - FS,MAPLE @ KNIGHT -Southbound -Far Side (after the intersection),32.806976,-96.817353,,,1
 14424,14424,MAPLE @ KNIGHT - N - NS,MAPLE @ KNIGHT -Northbound -Near Side (before the intersection),32.807193,-96.817391,,,1
 14426,14426,MAPLE @ OAK LAWN - S - FS,MAPLE @ OAK LAWN -Southbound -Far Side (after the intersection),32.803551,-96.813754,,,1
-14427,14427,MAPLE @ WOLF - S - NS,MAPLE @ WOLF -Southbound -Near Side (before the intersection),32.798107,-96.807541,,,1
 14428,14428,MAPLE @ CEDAR SPRINGS - S - NS,MAPLE @ CEDAR SPRINGS -Southbound -Near Side (before the intersection),32.79647,-96.805558,,,1
 14431,14431,MCKINNEY @ OLIVE - S - NS,MCKINNEY @ OLIVE -Southbound -Near Side (before the intersection),32.791988,-96.803208,,,1
 14432,14432,MCKINNEY @ AKARD - S - NS,MCKINNEY @ AKARD -Southbound -Near Side (before the intersection),32.788925,-96.804192,,,0
@@ -1037,7 +1034,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 15585,15585,8TH @ MONAGHAN - W - NS,8TH @ MONAGHAN -Westbound -Near Side (before the intersection),32.750443,-96.802078,,,1
 15587,15587,8TH @ DENLEY - W - NS,8TH @ DENLEY -Westbound -Near Side (before the intersection),32.751251,-96.805314,,,1
 15588,15588,8TH @ CLIFF - W - FS,8TH @ CLIFF -Westbound -Far Side (after the intersection),32.751262,-96.80703,,,1
-15589,15589,8TH @ JEFFERSON - W - MB,8TH @ JEFFERSON -Westbound -Mid Block (not near the intersection),32.751232,-96.810601,,,1
+15589,15589,8TH @ JEFFERSON - W - NS,8TH @ JEFFERSON -Westbound -Near Side (before the intersection),32.751251,-96.811635,,,1
 15590,15590,8TH @ EWING - W - FS,8TH @ EWING -Westbound -Far Side (after the intersection),32.751258,-96.81292,,,0
 15592,15592,8TH @ MARSALIS - W - NS,8TH @ MARSALIS -Westbound -Near Side (before the intersection),32.751281,-96.815415,,,1
 15594,15594,DAVIS @ BECKLEY - W - NS,DAVIS @ BECKLEY -Westbound -Near Side (before the intersection),32.74948,-96.82266,,,1
@@ -1050,7 +1047,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 15641,15641,DAVIS @ PATTON - E - NS,DAVIS @ PATTON -Eastbound -Near Side (before the intersection),32.749338,-96.820446,,,1
 15642,15642,8TH @ STARR - E - FS,8TH @ STARR -Eastbound -Far Side (after the intersection),32.750782,-96.817429,,,1
 15643,15643,8TH @ MARSALIS - E - FS,8TH @ MARSALIS -Eastbound -Far Side (after the intersection),32.751186,-96.81527,,,1
-15645,15645,8TH @ IH 35 - E - MB,8TH @ IH 35 -Eastbound -Mid Block (not near the intersection),32.75119,-96.810767,,,0
 15648,15648,8TH @ CLIFF - E - NS,8TH @ CLIFF -Eastbound -Near Side (before the intersection),32.751186,-96.807145,,,0
 15649,15649,8TH @ DENLEY - E - NS,8TH @ DENLEY -Eastbound -Near Side (before the intersection),32.751172,-96.805678,,,0
 15651,15651,8TH @ MONAGHAN - E - NS,8TH @ MONAGHAN -Eastbound -Near Side (before the intersection),32.750375,-96.802286,,,0
@@ -2133,7 +2129,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 18367,18367,JOSEY @ FYKE - N - NS,JOSEY @ FYKE -Northbound -Near Side (before the intersection),32.946209,-96.890236,,,1
 18368,18368,JOSEY @ HILLTOP - N - NS,JOSEY @ HILLTOP -Northbound -Near Side (before the intersection),32.948253,-96.890183,,,1
 18369,18369,JOSEY @ TARTAN - N - NS,JOSEY @ TARTAN -Northbound -Near Side (before the intersection),32.95174,-96.890152,,,1
-18373,18373,VALLEY VIEW @ WILLIAM DODSON - E - NS,VALLEY VIEW @ WILLIAM DODSON -Eastbound -Near Side (before the intersection),32.923809,-96.89383,,,0
 18374,18374,VALLEY VIEW @ DENNIS - E - FS,VALLEY VIEW @ DENNIS -Eastbound -Far Side (after the intersection),32.923854,-96.890419,,,1
 18375,18375,VALLEY VIEW @ TOM FIELD - E - NS,VALLEY VIEW @ TOM FIELD -Eastbound -Near Side (before the intersection),32.924064,-96.887696,,,0
 18378,18378,VALLEY VIEW @ JOSEY - W - FS,VALLEY VIEW @ JOSEY -Westbound -Far Side (after the intersection),32.924549,-96.882149,,,1
@@ -2629,7 +2624,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 19517,19517,ARAPAHO @ MIMOSA - W - FS,ARAPAHO @ MIMOSA -Westbound -Far Side (after the intersection),32.962359,-96.762924,,,1
 19518,19518,ARAPAHO @ COIT - W - MB,ARAPAHO @ COIT -Westbound -Mid Block (not near the intersection),32.962306,-96.76763,,,1
 19519,19519,ARAPAHO @ COIT - W - FS,ARAPAHO @ COIT -Westbound -Far Side (after the intersection),32.962132,-96.770121,,,0
-19520,19520,ARAPAHO @ EL ESTADO - W - MB,ARAPAHO @ EL ESTADO -Westbound -Mid Block (not near the intersection),32.962071,-96.770973,,,0
+19520,19520,ARAPAHO @ EL ESTADO - W - FS,ARAPAHO @ EL ESTADO -Westbound -Far Side (after the intersection),32.962078,-96.7725,,,0
 19521,19521,ARAPAHO @ SPRING CREEK - W - FS,ARAPAHO @ SPRING CREEK -Westbound -Far Side (after the intersection),32.962081,-96.773873,,,1
 19522,19522,ARAPAHO @ MEANDERING - W - MB,ARAPAHO @ MEANDERING -Westbound -Mid Block (not near the intersection),32.962114,-96.777881,,,1
 19523,19523,ARAPAHO @ TERRACE LAWN - W - FS,ARAPAHO @ TERRACE LAWN -Westbound -Far Side (after the intersection),32.96212,-96.780129,,,0
@@ -4285,8 +4280,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 23508,23508,MCKINNEY @ SNEED - N - NS,MCKINNEY @ SNEED -Northbound -Near Side (before the intersection),32.801807,-96.800965,,,0
 23510,23510,CEDAR SPRINGS @ CEDARPLAZA - N - NS,CEDAR SPRINGS @ CEDARPLAZA -Northbound -Near Side (before the intersection),32.821986,-96.826163,,,1
 23514,23514,ST PAUL @ FEDERAL - S - NS,ST PAUL @ FEDERAL -Southbound -Near Side (before the intersection),32.784574,-96.798476,,,1
-23518,23518,MORGAN @ PLAZA - E - NS,MORGAN @ PLAZA -Eastbound -Near Side (before the intersection),32.654789,-96.771813,,,0
-23519,23519,MORGAN @ PLAZA - W - NS,MORGAN @ PLAZA -Westbound -Near Side (before the intersection),32.654949,-96.771609,,,0
 23520,23520,MORGAN @ SAN JOSE - E - NS,MORGAN @ SAN JOSE -Eastbound -Near Side (before the intersection),32.653057,-96.775169,,,0
 23522,23522,OVERTON @ SOUTHERN OAKS - N - MB,OVERTON @ SOUTHERN OAKS -Northbound -Mid Block (not near the intersection),32.719702,-96.768896,,,1
 23523,23523,HUMPHREY @ WILHURT - S - NS,HUMPHREY @ WILHURT -Southbound -Near Side (before the intersection),32.712854,-96.765665,,,0
@@ -4362,8 +4355,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 23698,23698,BOND @ JEFFERSON - N - FS,BOND @ JEFFERSON -Northbound -Far Side (after the intersection),32.745342,-96.908799,,,1
 23701,23701,BRUTON @ ASPEN - E - FS,BRUTON @ ASPEN -Eastbound -Far Side (after the intersection),32.748577,-96.660785,,,1
 23702,23702,BRUTON @ ASPEN - W - NS,BRUTON @ ASPEN -Westbound -Near Side (before the intersection),32.748847,-96.661024,,,1
-23703,23703,SHILOH @ VILLAGE VIEW - N - MB,SHILOH @ VILLAGE VIEW -Northbound -Mid Block (not near the intersection),32.92473,-96.66512,,,0
-23704,23704,SHILOH @ WESTERN - S - MB,SHILOH @ WESTERN -Southbound -Mid Block (not near the intersection),32.924874,-96.665475,,,0
 23707,23707,SINGLETON @ BORGER - E - FS,SINGLETON @ BORGER -Eastbound -Far Side (after the intersection),32.778488,-96.841782,,,1
 23708,23708,EASTFIELD CC,EASTFIELD CC,32.815133,-96.661379,,,1
 23710,23710,HAMPTON @ SINGLETON - S - FS,HAMPTON @ SINGLETON -Southbound -Far Side (after the intersection),32.777999,-96.856652,,,1
@@ -4509,7 +4500,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 24160,24160,ABRAMS @ REIGER - N - NS,ABRAMS @ REIGER -Northbound -Near Side (before the intersection),32.803226,-96.755707,,,1
 24162,24162,WESTMORELAND @ PENTAGON - S - NS,WESTMORELAND @ PENTAGON -Southbound -Near Side (before the intersection),32.707096,-96.874428,,,0
 24166,24166,SHADY GROVE @ NURSERY - E - FS,SHADY GROVE @ NURSERY -Eastbound -Far Side (after the intersection),32.800875,-96.933726,,,1
-24176,24176,JEFFERSON @ COLORADO - N - FS,JEFFERSON @ COLORADO -Northbound -Far Side (after the intersection),32.759355,-96.812342,,,1
 24178,24178,COLLINS @ PROSPECT - W - MB,COLLINS @ PROSPECT -Westbound -Mid Block (not near the intersection),32.968052,-96.70298,,,1
 24182,24182,OCONNOR @ PIONEER - S - NS,OCONNOR @ PIONEER -Southbound -Near Side (before the intersection),32.818504,-96.94957,,,1
 24183,24183,REGAL @ CHANCELLOR - N - MB,REGAL @ CHANCELLOR -Northbound -Mid Block (not near the intersection),32.821142,-96.89338,,,0
@@ -5069,8 +5059,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 27349,27349,MIDWAY @ BELTWAY - N - FS,MIDWAY @ BELTWAY -Northbound -Far Side (after the intersection),32.95224,-96.838761,,,1
 27357,27357,JOSEY @ SOUTHERN OAKS - N - FS,JOSEY @ SOUTHERN OAKS -Northbound -Far Side (after the intersection),32.995166,-96.888277,,,1
 27363,27363,BUCKINGHAM @ CLEARVIEW - E - MB,BUCKINGHAM @ CLEARVIEW -Eastbound -Mid Block (not near the intersection),32.930265,-96.661358,,,0
-27364,27364,SHILOH @ VILLAGE VIEW - S - NS,SHILOH @ VILLAGE VIEW -Southbound -Near Side (before the intersection),32.929217,-96.664892,,,0
-27365,27365,SHILOH @ VILLAGE VIEW - N - NS,SHILOH @ VILLAGE VIEW -Northbound -Near Side (before the intersection),32.92895,-96.664641,,,1
 27366,27366,WALNUT @ PURDUE - E - MB2,WALNUT @ PURDUE -Eastbound -Mid Block 2 (not near the intersection),32.916549,-96.697121,,,0
 27367,27367,COIT @ CROSS BEND - N - NS,COIT @ CROSS BEND -Northbound -Near Side (before the intersection),33.049147,-96.770322,,,0
 27370,27370,COIT @ WHISTLER - S - NS,COIT @ WHISTLER -Southbound -Near Side (before the intersection),33.048395,-96.77055,,,0
@@ -6063,7 +6051,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 31225,31225,DENTON @ IH 635 - N - FS,DENTON @ IH 635 -Northbound -Far Side (after the intersection),32.909795,-96.892702,,,1
 31229,31229,MORGAN @ LEANING OAKS - E - NS,MORGAN @ LEANING OAKS -Eastbound -Near Side (before the intersection),32.656578,-96.768227,,,1
 31231,31231,TIOGA @ LEANING OAKS - W - NS,TIOGA @ LEANING OAKS -Westbound -Near Side (before the intersection),32.656742,-96.767986,,,1
-31232,31232,MORGAN @ NANDINA - W - NS,MORGAN @ NANDINA -Westbound -Near Side (before the intersection),32.656082,-96.769249,,,0
 31233,31233,HARRY HINES @ CULLUM - N -NS,HARRY HINES @ CULLUM -Northbound -NS,32.851332,-96.877904,,,0
 31248,31248,HARRY HINES @ WEBB CHAPEL EXT - S - MB,HARRY HINES @ WEBB CHAPEL EXT -Southbound -Mid Block (not near the intersection),32.851127,-96.878102,,,1
 31249,31249,PARK @ WEBB CHAPEL - W - FS,PARK @ WEBB CHAPEL -Westbound -Far Side (after the intersection),32.875208,-96.865166,,,0
@@ -6379,6 +6366,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 32365,32365,HARRY HINES @ REGAL ROW - S - MB,HARRY HINES @ REGAL ROW -Southbound -Mid Block (not near the intersection),32.838643,-96.8674,,,0
 32366,32366,STHWSTRN MED @ RECORD CROSSING - N - MB,STHWSTRN MED @ RECORD CROSSING -Northbound -Mid Block (not near the intersection),32.816176,-96.846806,,,0
 32368,32368,BELT LINE @ JACKSON - E- NS,BELT LINE @ JACKSON -Eastbound-Near Side (before the intersection),32.953623,-96.906043,,,0
+32376,32376,SHERMAN POCKET TRACK,SHERMAN POCKET TRACK,32.927116,-96.746197,,,0
 32382,32382,WEBB CHAPEL EXT @ STARLIGHT - S - MB,WEBB CHAPEL EXT @ STARLIGHT -Southbound -Mid Block (not near the intersection),32.855492,-96.87246,,,1
 32384,32384,BRUTON @ BUCKNER - E - FS,BRUTON @ BUCKNER -Eastbound -Far Side (after the intersection),32.748694,-96.68193,,,1
 32387,32387,FOREST @ KEVIN - E - MB,FOREST @ KEVIN -Eastbound -Mid Block (not near the intersection),32.908616,-96.651443,,,0
@@ -6485,8 +6473,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 32888,32888,FEDERAL @ OLIVE - E - NS,FEDERAL @ OLIVE -Eastbound -Near Side (before the intersection),32.78574,-96.796275,,,0
 32889,32889,FEDERAL @ HARWOOD - E- NS,FEDERAL @ HARWOOD -Eastbound-Near Side (before the intersection),32.784924,-96.797176,,,0
 32890,32890,OLIVE @ KLYDE WARREN PARK - N - MB,OLIVE @ KLYDE WARREN PARK -Northbound -Mid Block (not near the intersection),32.789664,-96.801194,,,0
-32891,32891,TP ARENA POCKET,TP ARENA POCKET,32.79304,-96.813557,,,0
-32892,32892,TP SCYENE POCKET,TP SCYENE POCKET,32.76548,-96.717736,,,0
 32917,32917,BUSH @ BINKLEY - S - NS,BUSH @ BINKLEY -Southbound -Near Side (before the intersection),32.841036,-96.779452,,,0
 32919,32919,ZANG @ ARGENTIA - N - MB2,ZANG @ ARGENTIA -Northbound -Mid Block 2 (not near the intersection),32.728053,-96.828621,,,0
 32920,32920,PRESTON @ LEGACY - N - MB2,PRESTON @ LEGACY -Northbound -Mid Block 2 (not near the intersection),33.068777,-96.795735,,,0
@@ -7066,7 +7052,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 34129,34129,LA PRADA @ BROADMOOR - W - NS,LA PRADA @ BROADMOOR -Westbound -Near Side (before the intersection),32.846256,-96.631954,,,0
 34130,34130,ADLETA @ ADLETA CT - S - NS,ADLETA @ ADLETA CT -Southbound -Near Side (before the intersection),32.900774,-96.713815,,,0
 34131,34131,TYLER @ PENTAGON - N - FS,TYLER @ PENTAGON -Northbound -Far Side (after the intersection),32.695507,-96.837072,,,0
-34140,34140,BURBANK@THURSTON - E - NS,BURBANK@THURSTON -Eastbound -Near Side (before the intersection),32.841083,-96.860843,,,0
+34140,34140,BURBANK@THURSTON - E - NS,BURBANK@THURSTON -Eastbound -Near Side (before the intersection),32.841047,-96.860843,,,0
 34141,34141,BUCKNER @ US 175 NS S,BUCKNER @ US 175 NS S,32.714065,-96.683182,,,0
 34142,34142,FORDHAM @ SUNNYVALE - E- FS,FORDHAM @ SUNNYVALE -Eastbound-Far Side (after the intersection),32.707341,-96.780642,,,0
 34143,34143,FORDHAM @ SUNNYVALE - W -  MB,FORDHAM @ SUNNYVALE -Westbound -Mid Block (not near the intersection),32.707565,-96.780352,,,0
@@ -7142,5 +7128,9 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,wheelch
 34222,34222,6TH @ OHIO - E - FS,6TH @ OHIO -Eastbound -Far Side (after the intersection),32.808507,-96.948898,,,0
 34223,34223,MAIN @ 4TH - N - MB,MAIN @ 4TH -Northbound -Mid Block (not near the intersection),32.810187,-96.946098,,,0
 34224,34224,MAIN @ 2ND - N - NS,MAIN @ 2ND -Northbound -Near Side (before the intersection),32.812581,-96.946082,,,0
+34229,34229,STORY @ 183 - S- NS,STORY @ 183 -Southbound-Near Side (before the intersection),32.838048,-96.976699,,,0
+34237,34237,STORY @ JIMMYDEE - S - NS,STORY @ JIMMYDEE -Southbound -Near Side (before the intersection),32.81409,-96.97654,,,0
 34239,34239,BURBANK @ HURON - E - NS,BURBANK @ HURON -Eastbound -Near Side (before the intersection),32.838759,-96.863645,,,0
 34240,34240,WALNUT @ RICHLAND PARK - W - FS,WALNUT @ RICHLAND PARK -Westbound -Far Side (after the intersection),32.925489,-96.72947,,,0
+34243,34243,MILLAY @ TOWNGATE - E - FS,MILLAY @ TOWNGATE -Eastbound -Far Side (after the intersection),32.866273,-96.658986,,,0
+34244,34244,MAPLE @ CARLISLE - S - NS,MAPLE @ CARLISLE -Southbound -Near Side (before the intersection),32.798617,-96.808179,,,0
