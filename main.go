@@ -296,7 +296,7 @@ func generateRoutesGeoJSON() error {
 		fmt.Println("Error converting to JSON:", err)
 	}
 
-	jsonErr := writeJSON(string(jsonData), "output/map-routes-data.geojson")
+	jsonErr := writeToFile(string(jsonData), "output/map-routes-data.geojson")
 	if err != nil {
 		return jsonErr
 	}
@@ -322,11 +322,12 @@ func generateStopGeoJSON() error {
 	rTripIdIndex := routes.header["trip_id"]
 	rRouteIdIndex := routes.header["route_id"]
 	rRouteNameIndex := routes.header["route_long_name"]
+	rRouteShortNameIndex := routes.header["route_short_name"]
 	rRouteColorIndex := routes.header["route_color"]
 	rRouteTypeIndex := routes.header["route_type"]
 
 	features := []GeoJSONFeature{}
-	csv := []string{"stop_id,stop_name,route_id,route_long_name"}
+	csv := []string{"stop_id,stop_name,route_id,route_long_name,route_short_name"}
 
 stopLoop:
 	for i, sValue := range stops.values {
@@ -378,7 +379,7 @@ stopLoop:
 				}
 				features = append(features, feature)
 
-				csvStop := fmt.Sprintf("%s,%s,%s,%s", sValue[sStopIdIndex], sValue[sStopNameIndex], route[rRouteIdIndex], route[rRouteNameIndex])
+				csvStop := fmt.Sprintf("%s,%s,%s,%s,%s", sValue[sStopIdIndex], sValue[sStopNameIndex], route[rRouteIdIndex], route[rRouteNameIndex], route[rRouteShortNameIndex])
 
 				for _, v := range csv {
 					if v == csvStop {
@@ -406,12 +407,12 @@ stopLoop:
 		fmt.Println("Error converting to JSON:", err)
 	}
 
-	jsonErr := writeJSON(string(jsonData), "output/map-stops-data.geojson")
+	jsonErr := writeToFile(string(jsonData), "output/map-stops-data.geojson")
 	if err != nil {
 		return jsonErr
 	}
 
-	csvErr := writeJSON(strings.Join(csv, "\r\n"), "output/stops-data.csv")
+	csvErr := writeToFile(strings.Join(csv, "\r\n"), "output/stops-data.csv")
 	if csvErr != nil {
 		fmt.Println(csvErr)
 		return csvErr
@@ -430,7 +431,7 @@ func isMapInSlice(target GeoJSONFeature, slice []GeoJSONFeature) bool {
 	return false
 }
 
-func writeJSON(json string, path string) error {
+func writeToFile(json string, path string) error {
 	file, err := os.OpenFile(path, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("Error creating file:", err)

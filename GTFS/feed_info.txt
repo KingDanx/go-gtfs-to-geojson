@@ -1,2 +1,2 @@
-feed_publisher_name,feed_publisher_url,feed_lang,feed_version,feed_start_date,feed_end_date,feed_contact_url
-DALLAS AREA RAPID TRANSIT,https://www.dart.org,en,V578-193-195-20241216,20241216,20250119,https://www.dart.org/contact-us
+feed_publisher_name,feed_publisher_url,feed_lang,default_lang,feed_start_date,feed_end_date,feed_version,feed_contact_email,feed_contact_url
+GMV Syncromatics,https://gmvsyncromatics.com,en-US,en-US,20250125,,"Spring 2025 Version 1.0",support@gmvsync.com,https://gmvsyncromatics.com/contact

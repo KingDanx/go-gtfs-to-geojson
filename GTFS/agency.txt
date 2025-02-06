@@ -1,2 +1,2 @@
-agency_id,agency_name,agency_phone,agency_url,agency_timezone,agency_lang,agency_fare_url
-DART,DALLAS AREA RAPID TRANSIT,214-979-1111,https://www.dart.org,America/Chicago,en,https://www.dart.org/fare/general-fares-and-overview/fares
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+222,"BCRTA",https://www.butlercountyrta.com/,America/New_York,en-US,513.785.5237,,request@butlercountyrta.com
