@@ -1,2 +1,2 @@
 agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
-222,"BCRTA",https://www.butlercountyrta.com/,America/New_York,en-US,513.785.5237,,request@butlercountyrta.com
+,Utah Transit Authority,http://www.rideuta.com,America/Denver,en,888-ride-uta,https://www.rideuta.com/fares-and-passes/current-fares,rideuta@rideuta.com

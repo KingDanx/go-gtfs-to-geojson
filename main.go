@@ -220,6 +220,7 @@ func populateGTFS() error {
 }
 
 func generateRoutesGeoJSON() error {
+	rRouteTypeIndex := routes.header["route_type"]
 	rRouteIdIndex := routes.header["route_id"]
 	rRouteNameIndex := routes.header["route_long_name"]
 	rRouteColorIndex := routes.header["route_color"]
@@ -234,6 +235,9 @@ func generateRoutesGeoJSON() error {
 	features := []GeoJSONFeature{}
 
 	for i, rValues := range routes.values {
+		if !includes(routeTypes, rValues[rRouteTypeIndex]) {
+			continue
+		}
 		routeId := rValues[rRouteIdIndex]
 		for _, tValues := range trips.values {
 			if routeId == tValues[tRouteIdIndex] {
